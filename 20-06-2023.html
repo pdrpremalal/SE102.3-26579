@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<body>
+<div style="display: flex; flex=direction: column; width: 25%; justify content: color; margine=50%;>
+   <button class="btn" id="btn.red" onmouseover="changeBgRed()" onmouseout="reset()">RED</button>
+   <button class="btn" id="btn.green" onmouseover="changeBgGreen()" onmouseout="reset()">GREEN</button>
+   <button class="btn" id="btn.blue" onmouseover="changeBgBlue()" onmouseout="reset()">BLUE</button>
+</div>
+
+<script>
+
+   window.onload = function(){
+   //changeBgColor
+   }
+
+   function changeBgRed(){
+     var button1 = document.getElementById("btn.red");
+     button1.style.backgroundColor = "red";
+   }
+   function changeBgGreen(){
+     var button2 = document.getElementById("btn.green");
+     button2.style.backgroundColor = "green";
+   }
+   function changeBgBlue(){
+     var button3 = document.getElementById("btn.blue");
+     button2.style.backgroundColor = "blue";
+   }
+   function reset(){
+     var button1 = document.getElementById("btn.red");
+     button1.style.backgroundColor = "initial";
+     
+     var button2 = document.getElementById("btn.green");
+     button2.style.backgroundColor = "initial";
+
+     var button2 = document.getElementById("btn.blue");
+     button2.style.backgroundColor = "initial";
+   }
+
+</script>
+</body>
+</html>
+
+
+   
